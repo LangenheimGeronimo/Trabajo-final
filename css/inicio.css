@@ -17,6 +17,11 @@ main{
 
 main h1{
     margin-bottom: 1rem;
+    font-size: 3rem;
+}
+main p{
+    margin-bottom: 1rem;
+    font-size: 2rem;
 }
 
 section{
@@ -26,6 +31,7 @@ section{
 }
 
 section h2{
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -43,18 +49,22 @@ footer{
     display: flex;
     justify-content: space-evenly;
     padding: 1rem;
+    background-color: #FFD200ff;
+    box-shadow: 0 0px 8px rgb(100, 100, 100);
 }
 
 #containerApp{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 #containerApps{
     display: flex;
+    justify-content: space-evenly;
 }
 #containerApps img{
-    margin: 1rem;
+    width: 10rem;
+    margin-top: 2rem;
 }
 
 #containerLogos{
