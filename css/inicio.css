@@ -1,1 +1,68 @@
 
+
+#imgInicio {
+    width: 100%; /* 100% del ancho del viewport (pantalla) */
+    height: auto; /* Mantiene la proporción original */
+    display: block; /* Elimina espacios en blanco si es inline */
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    margin-bottom: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+section h2{
+    margin-bottom: 1rem;
+}
+
+#containerPromociones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+p{
+    width: 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+#containerApp{
+    display: flex;
+    flex-direction: column
+}
+
+#containerApps{
+    display: flex;
+}
+#containerApps img{
+    margin: 1rem;
+}
+
+#containerLogos{
+    display: flex;
+    flex-direction: column;
+}
+
+#containerLogos img{
+    width: 2rem;
+    margin-bottom: 1rem;
+}
