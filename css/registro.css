@@ -15,7 +15,7 @@ form {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 form label {
@@ -26,8 +26,8 @@ form label {
 
 input {
   width: 100%;
-  padding: 10px;
-  /* margin-bottom: 20px; */
+  height: 35px;
+  padding-left: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
@@ -115,6 +115,7 @@ input:focus {
 }
 
 .separador{
+  margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
   column-gap: 5px;
