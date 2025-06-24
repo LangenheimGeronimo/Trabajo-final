@@ -1,0 +1,138 @@
+body {
+  background-color: #ffffff;
+}
+
+main {
+  margin-top: 80px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  /* margin-bottom: 20px; */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #FF2B00ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color:#FF0000ff;
+}
+
+.btn:active {
+  opacity: .8;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+
+.titulo{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.imgLogin, .imgRegistro {
+  width: 500px;
+  height: 500px;
+  display: none;
+  background-repeat: no-repeat;
+}
+
+.imgLogin {
+  background-image: url('/img/rider.svg');
+  background-size: 700px 700px;
+  background-position: center;
+}
+
+.imgRegistro {
+  background-image: url('/img/registro.svg');
+  background-size: 500px 500px;
+}
+
+input:focus {
+  outline: none;
+  transition: all 0.1s ease;
+  background-color: #f3f3f3;
+}
+
+#confirmacion {
+  width: 15px;
+  margin: 0;
+}
+
+#confirmacion:focus{
+  box-shadow: none;
+}
+
+#forgotPass {
+  width: fit-content;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.separador{
+  margin-bottom: 20px;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+@media (min-width: 920px) {
+  .imgLogin, .imgRegistro {
+    display: block;
+  }
+
+  .imgLogin {
+    position: relative;
+    top: -50px;
+  }
+
+
+
+
+}
+

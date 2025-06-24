@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/registro.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Registro</title>
+</head>
+<body>
+    
+    <header>
+        <a href="inicio.html"><img src="/img/logo.png" alt="Logo"></a>
+        <button class="btn-menu"><img src="/img/menu.png" alt="menu"></button>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+            </ul>
+        </nav> 
+    </header>
+    
+    <main>
+    <form action="" method="post">
+
+        <h1 class="titulo">Ingrese sus datos</h1>
+        <div class='wrapper'>
+
+            <div>
+                <label for="correo">Nombre:</label>
+                <input type="email" name="correo" id="correo" placeholder="Ej: nombreyapellido@gmail.com">
+            </div>
+        
+            <div>
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" name="contrasena" id="contrasena" placeholder=" Ej: 3756f$zx">
+            </div>
+            
+            <div>
+                <label for="confirmacionContrasena">Confirmacion:</label>
+                <input type="password" name="confirmacionContrasena" id="confirmacionContrasena" placeholder="Confirme su contraseña">
+            </div>
+            
+        </div>
+        
+        <div class="separador">
+            <label>
+                Acepto los términos y condiciones
+            </label>
+            <input type="checkbox" name="confirmacion" id="confirmacion">    
+        </div>
+
+        <button class="btn" type="submit"> Continuar </button>
+    </form>   
+
+
+    <div class="imgRegistro"></div>
+    </main>
+</body>
+</html>
