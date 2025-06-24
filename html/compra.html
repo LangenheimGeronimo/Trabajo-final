@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/compra.css">
+    <title>Compra</title>
+</head>
+<body>
+    <header>
+        <a href="inicio.html"><img src="/img/logo.png" alt="Logo"></a>
+        <button class="btn-menu"><img src="/img/menu.png" alt="menu"></button>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <section class="container">
+            <article class="product-container">
+                <img src="/img/hamburguesa.png" alt="imagen de hamburguesa">
+                
+                <div class="product-details">
+                    <h2 id="tituloProducto">Triple Hamburguesa con Queso</h2>
+                    <h3>$9.899</h3>
+                    <p>Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar.</p>
+                </div>
+                <div class="input-cantidad">
+                    <div>
+                        <button class="btn-restar">−</button>
+                            <input type="number" id="cantidad" class="campo-cantidad" min="1" max="20" value="1" />
+                        <button class="btn-sumar">+</button>
+                    </div>
+        
+                    <div id="total">
+                        <p>Total a pagar:  $9.899</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="btns-compra">
+                    <button type='button'>Pagar ahora</button>
+                    <button type='button'>Añadir al carrito</button>
+                </div>
+            </article>
+            
+        </section>
+
+
+    </main>
+    <script src="/js/compra.js"></script>
+</body>
+</html>
