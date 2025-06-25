@@ -57,7 +57,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
-  background-color: #FFD200ff;
+  background-color: #eee;
   box-shadow: 0 0px 8px rgb(100, 100, 100);
 }
 
