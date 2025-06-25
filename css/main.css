@@ -37,22 +37,31 @@ header{
 }
 
 nav {
-    display: none;
+  display: flex;
+  
+  background-color: white;
+  height: 100vh;
+  width: 70%;
+  right: 0px;
 }
 
-  ul > li > a{
-    color: rgb(255, 255, 255);
-    
-    padding: 12px;
-    border-radius: 10px;
-    transition: all 0.2s ease;
-  }
+ul {
+  list-style: none;
+}
 
-  li>a:hover {
-    background-color: #FFD200ff;
-    color: rgb(46, 46, 46);
-    box-shadow: 0 0px 8px #FFD200ff;
-  }
+ul > li > a{
+  text-decoration: none;
+  color: #FFD200ff;
+  padding: 12px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+li>a:hover {
+  background-color: #FFD200ff;
+  color: rgb(46, 46, 46);
+  box-shadow: 0 0px 8px #FFD200ff;
+}
 
 @media (min-width: 920px) {
     nav {
