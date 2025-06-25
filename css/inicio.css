@@ -44,35 +44,3 @@ section h2{
 p{
     width: 300px;
 }
-
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem;
-    background-color: #FFD200ff;
-    box-shadow: 0 0px 8px rgb(100, 100, 100);
-}
-
-#containerApp{
-    display: flex;
-    flex-direction: column;
-}
-
-#containerApps{
-    display: flex;
-    justify-content: space-evenly;
-}
-#containerApps img{
-    width: 10rem;
-    margin-top: 2rem;
-}
-
-#containerLogos{
-    display: flex;
-    flex-direction: column;
-}
-
-#containerLogos img{
-    width: 2rem;
-    margin-bottom: 1rem;
-}

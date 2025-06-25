@@ -1,0 +1,115 @@
+.title {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #FFD200ff;
+
+    & h1 {
+        margin-bottom: 20px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding: 40px 0;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #444;
+    box-shadow: 0 0 5px #aaa;
+    border-radius: 5px;
+    padding: 20px 15px;
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+
+    & div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    & label {
+        margin-bottom: 5px;
+    }
+
+    & #email, #nombre {
+        height: 30px;
+        padding: 0 10px;
+    }
+    
+    & textarea {
+        resize: none;
+        padding: 5px 10px;
+    }
+
+    & input, textarea {
+        font-size: .9rem;
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+}
+
+form input:focus, form textarea:focus {
+    background-color: #fff8ea;
+    border-color: #FFD200ff;
+}
+
+form button {
+    background-color: #FFD200ff;
+    cursor: pointer;
+    color: rgb(46, 46, 46);
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    transition: all .1s ease;
+
+    &:hover {
+        background-color: rgb(238, 195, 1);
+    }
+    
+    &:active {
+        background-color: #ffe46d;
+        color: rgb(100, 100, 100);
+    }
+
+}
+
+@media (min-width: 720px) {
+    form {
+        min-width: fit-content;
+        display: grid;
+        grid-template-columns: 250px 300px;
+        column-gap: 20px;
+        grid-template-areas: "nombre email"
+                             "puntuacion puntuacion"
+                             "comentario comentario"
+                             "enviar enviar";
+    }
+
+    form div.nombre {
+        grid-area: nombre;
+    }
+
+    form div.email {
+        grid-area: email;
+    }
+
+    form div.puntuacion {
+        grid-area: puntuacion;
+        max-width: 300px;
+    }
+    
+    form div.comentario {
+        grid-area: comentario;
+    }
+
+    form button {
+        margin-top: 20px;
+        grid-area: enviar;
+        height: 40px;
+    }
+}
