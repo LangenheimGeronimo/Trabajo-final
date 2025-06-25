@@ -1,3 +1,7 @@
+main {
+    background-color: #eee;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -68,6 +72,7 @@ hr {
         background-color: #FFD200ff;
         color: rgb(46, 46, 46);
         border-radius: 5px;
+        cursor: pointer;
     }
 }
 
