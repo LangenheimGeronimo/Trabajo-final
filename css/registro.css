@@ -55,17 +55,6 @@ input {
   opacity: .8;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;            
-  padding: 10px 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 1.2rem;
-
-}
-
 .titulo{
   text-align: center;
   margin-bottom: 50px;

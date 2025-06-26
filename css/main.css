@@ -11,9 +11,6 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
-main {
-    min-height: 100vh;
-}
 
 h1, h2, h3{
     font-family: 'Lilita One', sans-serif;
@@ -26,7 +23,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
-
     & img {
         width: 3rem;
     }
@@ -36,6 +32,36 @@ header{
   border: none;
   background: none;
   cursor: pointer;
+}
+
+.dropdown {
+    display: inline-block;
+    z-index: 10;
+}
+
+.dropdown-content {
+    background-color: #ff2b00;
+    position: absolute;
+    right: 10px;
+    top: 6rem;
+    display: none;
+    border-radius: 4px;
+    min-width: 50%;
+    & hr {
+        display: block;
+        border: .5px solid #d42300;
+    }
+    
+}
+.dropdown-content a {
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.content {
+    display: block;
 }
 
 .menu {
@@ -61,6 +87,7 @@ li>a:hover {
 
 footer {
   margin-top: 2rem;
+  column-gap: 8px;
   display: flex;
   justify-content: space-evenly;
   padding: 1rem;
@@ -69,31 +96,43 @@ footer {
 }
 
 #containerApp {
-    display: flex;
+    max-width: 50%;
     flex-direction: column;
 }
 
 #containerApps {
+    margin-top: 10px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
 }
 
 #containerApps img {
-    width: 10rem;
-    margin-top: 2rem;
+    width: 8rem;
 }
 
 #containerLogos {
     display: flex;
     flex-direction: column;
+    row-gap: 1rem;
 }
 
 #containerLogos img {
     width: 2rem;
-    margin-bottom: 1rem;
+    height: 2rem;
 }
 
-@media (min-width: 920px) {
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 720px) {
+    .dropdown {
+        display: none;
+    }
+    
     nav {
         display: block;
 
@@ -108,7 +147,21 @@ footer {
         }
     }
 
-    .btn-menu {
+    main {
+        min-height: 100vh;
+    }
+
+    /* .btn-menu {
         display: none;
+    } */
+
+    #containerApps {
+        flex-direction: row;;
+        justify-content: space-evenly;
+    }
+
+    #containerLogos{
+        /* flex-direction: row; */
+        justify-content: space-between;
     }
 }
