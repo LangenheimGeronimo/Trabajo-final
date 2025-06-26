@@ -1,9 +1,12 @@
 
 
 #imgInicio {
-    width: 100%; /* 100% del ancho del viewport (pantalla) */
-    height: auto; /* Mantiene la proporción original */
-    display: block; /* Elimina espacios en blanco si es inline */
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/incioDesktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
 }
 
 

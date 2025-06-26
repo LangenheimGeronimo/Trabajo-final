@@ -11,10 +11,13 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
+<<<<<<< HEAD
 main {
     min-height: 100vh;
 }
 
+=======
+>>>>>>> test
 h1, h2, h3{
     font-family: 'Lilita One', sans-serif;
     font-weight: 400;
@@ -43,7 +46,18 @@ header{
 }
 
 nav {
-    display: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  right: -80vw;
+  background-color: rgb(255, 255, 255);
+  width: 80vw;
+  height: 100vh;
+  transition: right 0.3s ease;
+  z-index: 2;
 }
 
 ul > li > a{
