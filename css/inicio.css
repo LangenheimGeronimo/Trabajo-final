@@ -1,9 +1,12 @@
 
 
 #imgInicio {
-    width: 100%; /* 100% del ancho del viewport (pantalla) */
-    height: auto; /* Mantiene la proporción original */
-    display: block; /* Elimina espacios en blanco si es inline */
+    width: 100%;
+    height: 100vh;
+    background-image: url('/img/incioDesktop.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
 }
 
 
@@ -43,36 +46,4 @@ section h2{
 
 p{
     width: 300px;
-}
-
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1rem;
-    background-color: #FFD200ff;
-    box-shadow: 0 0px 8px rgb(100, 100, 100);
-}
-
-#containerApp{
-    display: flex;
-    flex-direction: column;
-}
-
-#containerApps{
-    display: flex;
-    justify-content: space-evenly;
-}
-#containerApps img{
-    width: 10rem;
-    margin-top: 2rem;
-}
-
-#containerLogos{
-    display: flex;
-    flex-direction: column;
-}
-
-#containerLogos img{
-    width: 2rem;
-    margin-bottom: 1rem;
 }
