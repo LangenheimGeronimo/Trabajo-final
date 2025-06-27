@@ -1,15 +1,6 @@
-const btnMenu = document.getElementById('btn-menu');
-const opacity = document.getElementById('opacity');
-const nav = document.querySelector('nav');
+let button = document.querySelector('.btn-menu');
 
-btnMenu.addEventListener('click', function() {
-    console.log('Menu button clicked');
-    nav.style.right = '-10px';
-    opacity.style.display = 'block';
-});
-
-opacity.addEventListener('click', function() {
-    console.log('opacity button clicked');
-    nav.style.right = '-80vw';
-    opacity.style.display = 'none';
-});
+button.addEventListener('click', () => {
+    let content = document.querySelector('.dropdown-content');
+    content.classList.toggle('content');
+})

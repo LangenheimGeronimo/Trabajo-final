@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (valor < max) {
         input.value = valor + 1;
+        document.querySelector("#total").innerHTML = `Total a pagar: $${(valor + 1) * 9899}`;
       }
     });
 
@@ -19,8 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
       let valor = parseInt(input.value);
       const min = parseInt(input.min);
 
-      if (valor > min) {
+      if (valor >= min) {
         input.value = valor - 1;
+        document.querySelector("#total").innerHTML = `Total a pagar: $${(valor - 1) * 9899}`;
       }
     });
   });

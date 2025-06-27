@@ -10,7 +10,14 @@
 <body>
     <header>
         <a href="inicio.html"><img src="/img/logo.png" alt="Logo"></a>
-        <button class="btn-menu"><img src="/img/menu.png" alt="menu"></button>
+        <div class="dropdown">
+            <button class="btn-menu"><img src="/img/menu.png" alt="menu"></button>
+            <nav class="dropdown-content">
+                <a href="inicio.html">Inicio</a>
+                <hr>
+                <a href="productos.html">Productos</a>
+            </nav>
+        </div>
         <nav>
             <ul>
                 <li><a href="inicio.html">Inicio</a></li>
@@ -36,5 +43,6 @@
     </form>
     <div class="imgLogin"></div>
     </main>
+    <script src="/js/main.js"></script>
 </body>
 </html>
