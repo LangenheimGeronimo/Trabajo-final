@@ -99,10 +99,12 @@ hr {
 }
 
 .btns-compra{
+    font-size: .9rem;
     display: flex;
     column-gap: 50px;
     margin-top: 10px;
-    & button {
+    & a {
+        text-decoration: none;
         padding: 10px 12px;
         border: none;
         background-color: #ffd200;
