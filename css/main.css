@@ -69,18 +69,7 @@ header{
 }
 
 nav {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
-  top: 0px;
-  right: -80vw;
-  background-color: rgb(255, 255, 255);
-  width: 80vw;
-  height: 100vh;
-  transition: right 0.3s ease;
-  z-index: 2;
+    display: none;
 }
 
 ul > li > a{
