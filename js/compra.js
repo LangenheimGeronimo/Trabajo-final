@@ -3,22 +3,22 @@ const menu = [
   {
     titulo: "Hamburguesas",
     productos: [
-      {img: "/img/hamburguesa.png", nombre: "triple con queso", precio: 5500, descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"},
-      {img: "/img/hamburguesa.png", nombre: "triple con queso", precio: 5500, descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"},
-      {img: "/img/hamburguesa.png", nombre: "triple con queso", precio: 5500, descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"},
-      {img: "/img/hamburguesa.png", nombre: "triple con queso", precio: 5500, descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"},
+      {img: "/img/hamburguesa.png", nombre: "triple con queso", precio: 10500, descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"},
+      {img: "/img/big-mac.png", nombre: "Big Mac", precio: 8500, descripcion: "Dos hamburguesas de carne 100% vacuna con salsa especial, queso derretido, cebolla, lechuga fresca y pepino crocante que crean un sabor único, haciéndola la hamburguesa más famosa del mundo."},
     ],
   },
   {
     titulo: "Acompañamientos",
     productos: [
-      {img: "/img/hamburguesa.png", nombre: "triple con queso", precio: 5500, descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"},
+      {img: "/img/papas.png", nombre: "Papas fritas", precio: 4500, descripcion: "Calientes, crujientes y deliciosas, tus aliadas perfectas para cualquier comida. Disfrutá de nuestras papas mundialmente famosas, desde la primera hasta la última."},
+      {img: "/img/ensalada.png", nombre: "Ensalada", precio: 5000, descripcion: "Una opción para los que saben que una ensalada no es aburrida. Para los que saben que nuestras ensaladas son mucho más que verduras. Son las mejores variedades de hojas verdes y tomates Cherrys, ansiosas por acompañar tu hamburguesa."}
     ]
   },
   {
     titulo: "Bebidas",
     productos: [
-      {img: "/img/hamburguesa.png", nombre: "triple con queso", precio: 5500, descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"},
+      {img: "/img/cocaCola.png", nombre: "Coca cola", precio: 2700, descripcion: ""},
+      {img: "/img/agua.png", nombre: "Agua sin gas (500ml)", precio: 2000, descripcion: ""}
     ]
   },
   {
