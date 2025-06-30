@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/compra.css">
-    <title>Compra</title>
+    <link rel="stylesheet" href="/css/carta.css">
+    <script src="/js/main.js" defer></script>
+    <script src="/js/compra.js" defer></script>
+
 </head>
 <body>
     <header>
@@ -15,7 +18,7 @@
             <nav class="dropdown-content">
                 <a href="inicio.html">Inicio</a>
                 <hr>
-                <a href="compra.html">Productos</a>
+                <a href="productos.html">Productos</a>
                 <hr>
                 <a href="resenias.html">Reseñas</a>
                 <hr>
@@ -25,110 +28,12 @@
         <nav>
             <ul>
                 <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="compra.html">Productos</a></li>
+                <li><a href="productos.html">Productos</a></li>
                 <li><a href="resenias.html">Reseñas</a></li>
                 <li><a href="registro.html">Acceder</a></li>
             </ul>
         </nav> 
     </header>
-    <main>
-         <div id="menu"></div>
-        <!-- <h1>Hamburguesas</h1>    
-
-        <section class="container">
-
-            <article class="product-container">
-
-                <img src="/img/hamburguesa.png" alt="imagen de hamburguesa">
-                
-                <div class="product-details">
-                    <h2>Triple Hamburguesa con Queso</h2>
-                    <h3>$9.899</h3>
-                    <p>Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar.</p>
-                </div>
-                <div class="input-cantidad">
-                    <div>
-                        <button class="btn-restar">−</button>
-                        <input type="number" id="cantidad" class="campo-cantidad" min="1" max="20" value="0" />
-                        <button class="btn-sumar">+</button>
-                    </div>
-                    <p class='total'>Total a pagar:  $0</p>
-                </div>
-                <hr>
-                <div class="btns-compra">
-                    <a href='postcompra.html'>Pagar ahora</a>
-                    <a href='#'>Añadir al carrito</a>
-                </div>
-            </article>
-            <article class="product-container">
-
-                <img src="/img/hamburguesa.png" alt="imagen de hamburguesa">
-                
-                <div class="product-details">
-                    <h2>Triple Hamburguesa con Queso</h2>
-                    <h3>$9.899</h3>
-                    <p>Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar.</p>
-                </div>
-                <div class="input-cantidad">
-                    <div>
-                        <button class="btn-restar">−</button>
-                            <input type="number" id="cantidad" class="campo-cantidad" min="1" max="20" value="0" />
-                        <button class="btn-sumar">+</button>
-                    </div>
-        
-                    <p class='total'>Total a pagar:  $0</p>
-                </div>
-                <hr>
-                <div class="btns-compra">
-                    <a href='postcompra.html'>Pagar ahora</a>
-                    <a href='#'>Añadir al carrito</a>
-                </div>
-            </article>
-            <article class="product-container">
-
-                <img src="/img/hamburguesa.png" alt="imagen de hamburguesa">
-                
-                <div class="product-details">
-                    <h2>Triple Hamburguesa con Queso</h2>
-                    <h3>$9.899</h3>
-                    <p>Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar.</p>
-                </div>
-                <div class="input-cantidad">
-                    <div>
-                        <button class="btn-restar">−</button>
-                            <input type="number" id="cantidad" class="campo-cantidad" min="1" max="20" value="0" />
-                        <button class="btn-sumar">+</button>
-                    </div>
-        
-                    <p class='total'>Total a pagar:  $0</p>
-                </div>
-                <hr>
-                <div class="btns-compra">
-                    <a href='postcompra.html'>Pagar ahora</a>
-                    <a href='#'>Añadir al carrito</a>
-                </div>
-            </article>
-        </section>-->
-    </main>
-
-    <footer>
-        <div id="containerApp">
-            <h3>Descarga nuestra app y multiplica la diversion!</h3>
-            <div id="containerApps">
-                <a target='_blank' href="https://apps.apple.com/ar/app/mcdonalds-ofertas-y-delivery/id1114009187"><img src="/img/dispAppStore.webp" alt="App Store"></a>
-                <a target='_blank' href="https://play.google.com/store/apps/details?id=com.mcdo.mcdonalds&hl=es_AR"><img src="/img/dispGooglePlay.webp" alt="Play Store"></a>
-            </div>
-        </div>
-        <div id="containerLogos">
-            <h3>Tambien siguenos en nuestras redes sociales</h3>
-            <div class="social-icons">
-                <a target="_blank" href="https://www.facebook.com/McDonaldsArgentina/?locale2=pt_BR&_rdr"><img src="/img/facebook.png" alt="Facebook"></a>
-                <a target="_blank" href="https://www.instagram.com/mcdonalds_ar/?hl=es-la"><img src="/img/instagram.png" alt="Instagram"></a>
-                <a target="_blank" href="https://x.com/mcdonalds?lang=es"><img src="/img/x.png" alt="X"></a>
-            </div>
-        </div>
-    </footer>
-    <script src="/js/main.js"></script>
-    <script src="/js/compra.js"></script>
+    <div id="main"></div>
 </body>
 </html>

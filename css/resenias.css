@@ -25,7 +25,7 @@
 
 h2{
     margin-top: 1rem;
-    color: #FFD200ff; 
+    color: rgb(0, 0, 0); 
     -webkit-text-stroke: 1px black; 
 }
 
@@ -42,13 +42,10 @@ h2{
     padding: 10px;
     font-weight: 400;
     border-radius: 10px;
-    box-shadow: 6px 4px 8px #FFD200ff;
-    border-left: 5px solid #FF2B00;
+    box-shadow: 4px 4px 8px #959595;
 
     & h4{
         padding-bottom: 20px;
-        -webkit-text-stroke: 1px #FF2B00;
-        letter-spacing: 2px;
     }
 
     & p{
@@ -69,8 +66,10 @@ h2{
 }
 
 hr{
-    margin-top: 8px;
-} 
+  margin-top: 8px;
+  height: 2px;
+  margin: 2rem 0;
+}
 
 /*----------------------------------------------------------------------------------------------*/
 @media (min-width: 720px) {
@@ -111,11 +110,9 @@ hr{
   h2 {
     margin: 1.5rem auto;
     text-align: center;
-    color: #FFD200; 
-    -webkit-text-stroke: 1px #000; 
+    color: #000000;
     font-size: 2rem;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 0 #00000055;
 }
 
 }
