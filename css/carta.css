@@ -7,6 +7,19 @@
     align-items: center;
 }
 
+.zoom {
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
+
+.promocion {
+    
+}
+
 .producto {
     margin-top: 15px;
     padding: 10px 15px;
