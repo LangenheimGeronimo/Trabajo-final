@@ -11,7 +11,7 @@ const productosResenias = [
       {
         nombre: "Lucia Herrera", 
         puntuacion: 3,
-        comentario: 'Muy fea. El pan estaba seco y la carne sin gusto. No la volvería a pedir.'
+        comentario: 'No está mal, pero esperaba más. El sabor es bueno, aunque se siente un poco artificial.'
       },
       {
         nombre: "Tomas Beltran", 
@@ -19,19 +19,9 @@ const productosResenias = [
         comentario: 'La clásica que nunca falla! Siempre que quiero algo rápido y rico, elijo la Big Mac.'
       },
       {
-        nombre: "Emanuel San Roman", 
-        puntuacion: 2,
-        comentario: 'Demasiada salsa para mi gusto, y la lechuga estaba mustia. No fue una buena experiencia.'
-      },
-      {
-        nombre: "Geronimo Langenheim", 
+        nombre: "Agustin Gonzalez", 
         puntuacion: 4,
-        comentario: 'muy buena.'
-      },
-      {
-        nombre: "Ciro Salaberry", 
-        puntuacion: 5,
-        comentario: '.'
+        comentario: 'Muy rica, aunque podría venir un poco más caliente. El sabor sigue siendo genial.'
       },
     ]
   },
@@ -40,34 +30,24 @@ const productosResenias = [
     titulo: 'McFlurry Kit Kat',
     resenias: [
       {
-        nombre: "Emanuel San Roman", 
-        puntuacion: 1,
-        comentario: 'muy fea.'
-      },
-      {
-        nombre: "Geronimo Langenheim", 
-        puntuacion: 4,
-        comentario: 'muy buena.'
-      },
-      {
-        nombre: "Ciro Salaberry", 
+        nombre: "Agustin Rivas", 
         puntuacion: 5,
-        comentario: '.'
+        comentario: '¡Una bomba! El helado cremoso con los pedacitos de Kit Kat es adictivo. Mi postre favorito.'
       },
       {
-        nombre: "Emanuel San Roman", 
-        puntuacion: 1,
-        comentario: 'muy fea.'
+        nombre: "Lionel Messi", 
+        puntuacion: 3,
+        comentario: 'Está bien, pero esperaba más sabor a chocolate. Los trozos de Kit Kat a veces se sienten muy duros.'
       },
       {
-        nombre: "Geronimo Langenheim", 
+        nombre: "Valentina Ortiz", 
+        puntuacion: 2,
+        comentario: 'Demasiado dulce para mí. Después de unas cucharadas ya me empalaga.'
+      },
+      {
+        nombre: "Matias Godoy", 
         puntuacion: 4,
-        comentario: 'muy buena.'
-      },
-      {
-        nombre: "Ciro Salaberry", 
-        puntuacion: 5,
-        comentario: '.'
+        comentario: 'Muy rico, aunque podría tener un poco más de Kit Kat. Aún así, lo volvería a pedir.'
       },
     ]
   },

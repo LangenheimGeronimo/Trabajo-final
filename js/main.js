@@ -154,58 +154,45 @@ function crearCarta(producto){
   return carta;
 }
 
+function crearContenedorCategoria(){
+  const contenedorCategoria = document.createElement("section");
+  contenedorCategoria.className = "contenedorProductos";
+  return contenedorCategoria;
+}
+
 /* LOGICA DE CREACION DE CARTAS */
 function cargarProductos(){
     // Si estamos en inicio 
-   if(window.location.href.includes('inicio.html')) {
-      // Crear una solo contenedor productos
-      const categoriaDiv = document.createElement("section");
-      categoriaDiv.className = "contenedorProductos";
+    if(window.location.href.includes('inicio.html')) {
+      // Crear un solo contenedor productos
+      const categoriaDiv = crearContenedorCategoria();
       main.appendChild(categoriaDiv);
 
       // Recorremos las categorias y cada producto
       categorias.forEach(categoria => {
         categoria.productos.forEach(producto => {
-        // Crea la carta por cada producto
-        const carta = crearCarta(producto);
-        // Si no esta en inicio agrega la carta al contenedor
-        if(!window.location.href.includes('inicio.html')) {
+          const carta = crearCarta(producto);
+          // Si el producto esta en promocion lo mete al contenedor productos (promociones)
+          if(producto.promocion) {
             categoriaDiv.appendChild(carta);
-        } 
-        // Si esta en inicio verifica que el producto este en 
-        // promocion antes de agregarlo al contenedor
-    else{
-        if(producto.promocion){
-            categoriaDiv.appendChild(carta);
-        }
-      }
-    });
+          } 
+        })
+      });
+    }else{
+      // Recorremos las categorias
+      categorias.forEach(categoria => {
+        // Por cada categoria creamos un div que va contener los productos
+        const categoriaDiv = crearContenedorCategoria();
+        main.appendChild(categoriaDiv);
 
-
-  // Recorremos las categorias
-  categorias.forEach(categoria => {
-    // Por cada categoria creamos un div que va contener los productos
-    const categoriaDiv = document.createElement("section");
-    categoriaDiv.className = "contenedorProductos";
-    main.appendChild(categoriaDiv);
-
-    // De cada categoria recorremos sus productos
-    categoria.productos.forEach(producto => {
-      // Crea la carta por cada producto
-      const carta = crearCarta(producto);
-      // Si no esta en inicio agrega la carta al contenedor
-      if(!window.location.href.includes('inicio.html')) {
+        // De cada categoria recorremos sus productos
+        categoria.productos.forEach(producto => {
+          // Crea la carta por cada producto
+          const carta = crearCarta(producto);
           categoriaDiv.appendChild(carta);
-      } 
-      // Si esta en inicio verifica que el producto este en 
-      // promocion antes de agregarlo al contenedor
-      else{
-        if(producto.promocion){
-            categoriaDiv.appendChild(carta);
-        }
-      }
-    });
-  });
+          });
+      });
+    }
 }
 
 // Una vez cargados los productos
