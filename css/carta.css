@@ -126,7 +126,6 @@ hr {
 
     .product-details {
         grid-area: details;
-        margin-top: 50px;
     }
 
     .product-details > p {

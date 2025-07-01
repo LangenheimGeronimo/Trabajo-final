@@ -8,33 +8,58 @@ const categorias = [
     titulo: "Hamburguesas",
     productos: [
       {
-        img: "/img/hamburguesa.png", 
-        nombre: "triple con queso", 
+        img: "/img/productos/hamburguesa.png", 
+        nombre: "Triple Hamburguesa con Queso", 
         precio: '$10500', 
         descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"
       },
       {
-        img: "/img/big-mac.png", 
+        img: "/img/productos/big-mac.png", 
         nombre: "Big Mac", 
         precio: '$8500', 
         descripcion: "Dos hamburguesas de carne 100% vacuna con salsa especial, queso derretido, cebolla, lechuga fresca y pepino crocante que crean un sabor único, haciéndola la hamburguesa más famosa del mundo."
       },
+      {
+        img: "/img/productos/dobleCuartoQueso.png", 
+        nombre: "Doble Cuarto de Libra con Queso", 
+        precio: '$8500', 
+        descripcion: "Imaginá la sensación del clásico Cuarto de Libra. Imaginalo con un medallón de deliciosa carne 100% vacuna, queso cheddar, cebolla, kétchup y mostaza ¿Listo? Ahora duplicá esa sensación. Ya tenés el Doble Cuarto en la cabeza."
+      },
+      {
+        img: "/img/productos/mcNifica", 
+        nombre: "McNífica", 
+        precio: '$8500', 
+        descripcion: "Dos hamburguesas de carne 100% vacuna con salsa especial, queso derretido, cebolla, lechuga fresca y pepino crocante que crean un sabor único, haciéndola la hamburguesa más famosa del mundo."
+      }
+     
     ],
   },
   {
     categoria: "Acompañamientos",
     productos: [
       {
-        img: "/img/papas.png", 
+        img: "/img/productos/papas.png", 
         nombre: "Papas fritas", 
         precio: '$4500', 
         descripcion: "Calientes, crujientes y deliciosas, tus aliadas perfectas para cualquier comida. Disfrutá de nuestras papas mundialmente famosas, desde la primera hasta la última."
       },
       {
-        img: "/img/ensalada.png", 
-        nombre: "Ensalada", 
-        precio: '$5000', 
-        descripcion: "Una opción para los que saben que una ensalada no es aburrida. Para los que saben que nuestras ensaladas son mucho más que verduras. Son las mejores variedades de hojas verdes y tomates Cherrys, ansiosas por acompañar tu hamburguesa."
+        img: "/img/productos/papasPequenias.png", 
+        nombre: "Papas pequeñas", 
+        precio: '$2000', 
+        descripcion: "Nuestras clásicas papas fritas doradas y crocantes con la sal justa y en un porción adecuada para los niños."
+      },
+      {
+        img: "/img/productos/papas.png", 
+        nombre: "Papas fritas", 
+        precio: '$4500', 
+        descripcion: "Calientes, crujientes y deliciosas, tus aliadas perfectas para cualquier comida. Disfrutá de nuestras papas mundialmente famosas, desde la primera hasta la última."
+      },
+      {
+        img: "/img/productos/papasPequenias.png", 
+        nombre: "Papas pequeñas", 
+        precio: '$2000', 
+        descripcion: "Nuestras clásicas papas fritas doradas y crocantes con la sal justa y en un porción adecuada para los niños."
       }
     ]
   },
@@ -42,13 +67,13 @@ const categorias = [
     titulo: "bebidas",
     productos: [
       {
-        img: "/img/cocaCola.png", 
+        img: "/img/productos/cocaCola.png", 
         nombre: "Coca cola", 
         precio: '$2700', 
         descripcion: ""
       },
       {
-        img: "/img/agua.png", 
+        img: "/img/productos/agua.png", 
         nombre: "Agua sin gas (500ml)", 
         precio: '$2000', 
         descripcion: ""
@@ -59,14 +84,14 @@ const categorias = [
     titulo: "postres",
     productos: [
       {
-        img: "/img/kitKat.png", 
-        nombre: "McFlurry Kit Kat", 
+        img: "/img/productos/cono-vainilla.png", 
+        nombre: "Cono de Vainilla", 
         precio: '$3700', 
         descripcion: "La crocante oblea de chocolate que todo el mundo conoce y ama, pero acompañada de un cremoso helado de vainilla y una deliciosa salsa tibia de chocolate. ¿Hace falta que te diga más? El break helado que esperabas.", 
         promocion: true
       },
       {
-        img: "/img/sundae.png", 
+        img: "/img/productos/cono-combinado.png", 
         nombre: "Sundae de chocolate", 
         precio: '$3000', 
         descripcion: "El exquisito helado de vainilla que ya conoces y te encanta, pero bañado de una salsa de dulce de leche que te encantará aún más.", 
@@ -84,7 +109,7 @@ const categorias = [
         descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"
       },
       {
-        img: "/img/", 
+        img: "/img/productos/", 
         nombre: "McFlurry", 
         precio: '$3000', 
         descripcion: "Un helado de vainilla que se banca compartir el protagonismo con trocitos de deliciosas galletitas Oreo y la salsa que elijas. Amalo hasta el final.", 

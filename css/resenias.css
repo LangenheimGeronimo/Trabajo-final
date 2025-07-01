@@ -61,8 +61,7 @@ h2{
 }
 
 .contenedor-opinion > div > div > img{
-    margin: 0 2px;
-    column-gap: 2px;
+    column-gap: 1px;
     width: 3rem;
 }
 
