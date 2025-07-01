@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/registro.css">
     <link rel="stylesheet" href="/css/main.css">
     <script src="/js/main.js" defer></script>
+    <script src="/js/acceso.js" defer></script>
     <title>Login</title>
 </head>
 <body>
@@ -32,11 +33,11 @@
         <div class='wrapper'>
             <div>
                 <label for="correo">Correo:</label>
-                <input type="email" name="correo" id="correo" />
+                <input type="email" name="correo" id="correo" required/>
             </div>
             <div>
                 <label for="contrasena">Contraseña:</label>
-                <input type="password" name="contrasena" id="contrasena" />
+                <input type="password" name="contrasena" id="contrasena" required/>
             </div>
         </div>
         <a id="forgotPass" href="#">Has olvidado tu contraseña?</a>

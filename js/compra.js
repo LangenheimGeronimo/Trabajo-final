@@ -25,6 +25,7 @@ function cargarCarta() {
     contenedorProducto.appendChild(carta);
 }
 
+
 cargarCarta();
 
 /* LOGICA DE ACUMULACION DE PRECIO */

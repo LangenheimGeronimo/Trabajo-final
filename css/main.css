@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital@0;1&display=swap');
-/*GENERAL:*/
+
 body{
     background-color: #ffffff;
 }
@@ -11,13 +11,13 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
-/*TITULOS*/
+
 h1, h2, h3{
     font-family: 'Lilita One', sans-serif;
     font-weight: 400;
 }
 
-/*CABEZERA*/
+
 header{
     background-color: #FF2B00ff;
     display: flex;
@@ -29,7 +29,7 @@ header{
     }
 }
 
-/*MENU*/
+
 .btn-menu {
   border: none;
   background: none;
@@ -87,7 +87,7 @@ li>a:hover {
   box-shadow: 0 0px 8px #FFD200ff;
 }
 
-/*PIE DE PAGINA*/
+
 footer {
   margin-top: 2rem;
   column-gap: 8px;
@@ -98,7 +98,7 @@ footer {
   box-shadow: 0 0px 8px rgb(100, 100, 100);
 }
 
-/*APPS*/
+
 #containerApp {
     max-width: 50%;
     flex-direction: column;
@@ -116,7 +116,7 @@ footer {
     width: 8rem;
 }
 
-/*LOGOS*/
+
 #containerLogos {
     display: flex;
     flex-direction: column;
