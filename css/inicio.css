@@ -16,7 +16,7 @@ main{
 #imgInicio {
     width: 100%;
     height: 100vh;
-    background-image: url('/img/incioDesktop.png');
+    background-image: url('/img/fondos/incioDesktop.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;    

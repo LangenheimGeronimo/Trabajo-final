@@ -1,27 +1,27 @@
 const productosResenias = [
   {
-    imagen: "/img/productos/big-mac.png",
+    imagen: "/img/productos/bigMac.png",
     titulo: 'Big Mac',
     resenias: [
       {
-        nombre: "Emanuel San Roman", 
+        nombre: "Julian Lpoez", 
         puntuacion: 1,
-        comentario: 'muy fea.'
+        comentario: 'Muy fea. El pan estaba seco y la carne sin gusto. No la volvería a pedir.'
       },
       {
-        nombre: "Geronimo Langenheim", 
-        puntuacion: 4,
-        comentario: 'muy buena.'
+        nombre: "Lucia Herrera", 
+        puntuacion: 3,
+        comentario: 'Muy fea. El pan estaba seco y la carne sin gusto. No la volvería a pedir.'
       },
       {
-        nombre: "Ciro Salaberry", 
+        nombre: "Tomas Beltran", 
         puntuacion: 5,
-        comentario: '.'
+        comentario: 'La clásica que nunca falla! Siempre que quiero algo rápido y rico, elijo la Big Mac.'
       },
       {
         nombre: "Emanuel San Roman", 
-        puntuacion: 1,
-        comentario: 'muy fea.'
+        puntuacion: 2,
+        comentario: 'Demasiada salsa para mi gusto, y la lechuga estaba mustia. No fue una buena experiencia.'
       },
       {
         nombre: "Geronimo Langenheim", 

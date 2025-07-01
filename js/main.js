@@ -10,26 +10,26 @@ const categorias = [
       {
         img: "/img/productos/hamburguesa.png", 
         nombre: "Triple Hamburguesa con Queso", 
-        precio: '$10500', 
+        precio: '$8900', 
         descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"
       },
       {
-        img: "/img/productos/big-mac.png", 
+        img: "/img/productos/bigMac.png", 
         nombre: "Big Mac", 
-        precio: '$8500', 
+        precio: '$6600', 
         descripcion: "Dos hamburguesas de carne 100% vacuna con salsa especial, queso derretido, cebolla, lechuga fresca y pepino crocante que crean un sabor único, haciéndola la hamburguesa más famosa del mundo."
       },
       {
         img: "/img/productos/dobleCuartoQueso.png", 
         nombre: "Doble Cuarto de Libra con Queso", 
-        precio: '$8500', 
+        precio: '$9800', 
         descripcion: "Imaginá la sensación del clásico Cuarto de Libra. Imaginalo con un medallón de deliciosa carne 100% vacuna, queso cheddar, cebolla, kétchup y mostaza ¿Listo? Ahora duplicá esa sensación. Ya tenés el Doble Cuarto en la cabeza."
       },
       {
-        img: "/img/productos/mcNifica", 
+        img: "/img/productos/mcnifica.png", 
         nombre: "McNífica", 
-        precio: '$8500', 
-        descripcion: "Dos hamburguesas de carne 100% vacuna con salsa especial, queso derretido, cebolla, lechuga fresca y pepino crocante que crean un sabor único, haciéndola la hamburguesa más famosa del mundo."
+        precio: '$9200', 
+        descripcion: "En un mundo donde todos buscan lo nuevo todo el tiempo, la McNífica viene a rectificar lo bueno de ser clásico. Carne, queso cheddar, tomate, lechuga y cebolla, acompañados de kétchup, mostaza y mayonesa."
       }
      
     ],
@@ -50,16 +50,16 @@ const categorias = [
         descripcion: "Nuestras clásicas papas fritas doradas y crocantes con la sal justa y en un porción adecuada para los niños."
       },
       {
-        img: "/img/productos/papas.png", 
-        nombre: "Papas fritas", 
+        img: "/img/productos/papasConCheddar.png", 
+        nombre: "papas Con Chedar y bacon", 
         precio: '$4500', 
-        descripcion: "Calientes, crujientes y deliciosas, tus aliadas perfectas para cualquier comida. Disfrutá de nuestras papas mundialmente famosas, desde la primera hasta la última."
+        descripcion: "Calientes, crujientes y deliciosas, una nueva variedad llega para quedarse: Papas Fritas con Cheddar fundido y trocitos de bacon."
       },
       {
-        img: "/img/productos/papasPequenias.png", 
-        nombre: "Papas pequeñas", 
-        precio: '$2000', 
-        descripcion: "Nuestras clásicas papas fritas doradas y crocantes con la sal justa y en un porción adecuada para los niños."
+        img: "/img/productos/papasConTasty.png", 
+        nombre: "papas con tasty", 
+        precio: '3700', 
+        descripcion: "Calientes, crujientes y deliciosas, una nueva variedad llega para quedarse: Papas Fritas con nuestra exclusiva salsa Tasty."
       }
     ]
   },
@@ -67,16 +67,28 @@ const categorias = [
     titulo: "bebidas",
     productos: [
       {
-        img: "/img/productos/cocaCola.png", 
-        nombre: "Coca cola", 
-        precio: '$2700', 
-        descripcion: ""
+        img: "/img/productos/cocaColaChica.png", 
+        nombre: "Coca Cola Mediana", 
+        precio: '$3200', 
+        descripcion: "Burbujas contra el calor, contra la sed, contra el aburrimiento. Si tus comidas llevan gaseosa, están listas para enfrentar lo que sea, elegila en tamaño regular, mediano o grande."
+      },
+      { // aca sprite
+        img: "/img/productos/sprite.png", 
+        nombre: "Sprite Zero Mediana (500ml)", 
+        precio: '$3200', 
+        descripcion: "Burbujas contra el calor, contra la sed, contra el aburrimiento. Si tus comidas llevan gaseosa, están listas para enfrentar lo que sea, elegila en tamaño regular, mediano o grande."
+      },
+      {
+        img: "/img/productos/fanta.png", 
+        nombre: "Fanta Zero Mediana (500ml)", 
+        precio: '$3200', 
+        descripcion: "Burbujas contra el calor, contra la sed, contra el aburrimiento. Si tus comidas llevan gaseosa, están listas para enfrentar lo que sea, elegila en tamaño regular, mediano o grande."
       },
       {
         img: "/img/productos/agua.png", 
-        nombre: "Agua sin gas (500ml)", 
-        precio: '$2000', 
-        descripcion: ""
+        nombre: "Agua", 
+        precio: '$3500', 
+        descripcion: "Botella de 500ml de agua mineral"
       }
     ]
   },
@@ -86,38 +98,39 @@ const categorias = [
       {
         img: "/img/productos/cono-vainilla.png", 
         nombre: "Cono de Vainilla", 
-        precio: '$3700', 
-        descripcion: "La crocante oblea de chocolate que todo el mundo conoce y ama, pero acompañada de un cremoso helado de vainilla y una deliciosa salsa tibia de chocolate. ¿Hace falta que te diga más? El break helado que esperabas.", 
+        precio: '$1300', 
+        descripcion: "Un clásico cono que nunca pasa de moda. La opción que todos aman por su sabor, su dulce cucurucho y su estilo tan cool.", 
+        promocion: true
+      },
+      {
+        img: "/img/productos/cono-kitkat.png", 
+        nombre: "Cono KitKat", 
+        precio: '$1900', 
+        descripcion: "Cremoso helado de vainilla, en un delicioso cucurucho, acompañado de la crujiente oblea de chocolate, la favorita de todos: Kit Kat. ¡Imposible resistirse!", 
         promocion: true
       },
       {
         img: "/img/productos/cono-combinado.png", 
-        nombre: "Sundae de chocolate", 
-        precio: '$3000', 
-        descripcion: "El exquisito helado de vainilla que ya conoces y te encanta, pero bañado de una salsa de dulce de leche que te encantará aún más.", 
+        nombre: "Cono Combinado", 
+        precio: '$ 1300', 
+        descripcion: "El helado para los que lo quieren todo. Para los que no se conforman con un sabor. Un helado que combina dulce de leche, vainilla y un delicioso cucurucho.", 
         promocion: true
       },
-    ]
-  },
-  {
-    titulo: "Desayuno",
-    productos: [
       {
-        img: "/img/", 
-        nombre: "triple con queso", 
-        precio: '$5500', 
-        descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"
-      },
-      {
-        img: "/img/productos/", 
-        nombre: "McFlurry", 
-        precio: '$3000', 
-        descripcion: "Un helado de vainilla que se banca compartir el protagonismo con trocitos de deliciosas galletitas Oreo y la salsa que elijas. Amalo hasta el final.", 
+        img: "/img/productos/cono-ddl.png", 
+        nombre: "Cono de Dulce de Leche", 
+        precio: '$ 1300', 
+        descripcion: "Si amás el dulce de leche, si amás el helado, si amás el cucurucho, si amás un postre que te refresque; este es tu postre.", 
         promocion: true
       },
     ]
   },
 ]
+
+btnMenu.addEventListener('click', () => {
+    let content = document.querySelector('.dropdown-content');
+    content.classList.toggle('content');
+})
 
 // Funcion para crear cartas
 function crearCarta(producto){
@@ -143,6 +156,32 @@ function crearCarta(producto){
 
 /* LOGICA DE CREACION DE CARTAS */
 function cargarProductos(){
+    // Si estamos en inicio 
+   if(window.location.href.includes('inicio.html')) {
+      // Crear una solo contenedor productos
+      const categoriaDiv = document.createElement("section");
+      categoriaDiv.className = "contenedorProductos";
+      main.appendChild(categoriaDiv);
+
+      // Recorremos las categorias y cada producto
+      categorias.forEach(categoria => {
+        categoria.productos.forEach(producto => {
+        // Crea la carta por cada producto
+        const carta = crearCarta(producto);
+        // Si no esta en inicio agrega la carta al contenedor
+        if(!window.location.href.includes('inicio.html')) {
+            categoriaDiv.appendChild(carta);
+        } 
+        // Si esta en inicio verifica que el producto este en 
+        // promocion antes de agregarlo al contenedor
+    else{
+        if(producto.promocion){
+            categoriaDiv.appendChild(carta);
+        }
+      }
+    });
+
+
   // Recorremos las categorias
   categorias.forEach(categoria => {
     // Por cada categoria creamos un div que va contener los productos
@@ -191,40 +230,3 @@ function redirigirFormulario(){
   
   window.location.href = 'compra.html';
 }
-
-btnMenu.addEventListener('click', () => {
-    let content = document.querySelector('.dropdown-content');
-    content.classList.toggle('content');
-})
-
-/* LOGICA DE ACUMULACION DE PRECIO */
-document.addEventListener("DOMContentLoaded", () => {
-  const contenedores = document.querySelectorAll(".input-cantidad");
-
-  contenedores.forEach((contenedor) => {
-    const input = contenedor.querySelector(".campo-cantidad");
-    const btnSumar = contenedor.querySelector(".btn-sumar");
-    const btnRestar = contenedor.querySelector(".btn-restar");
-
-    btnSumar.addEventListener("click", () => {
-      let valor = parseInt(input.value);
-      const max = parseInt(input.max);
-
-      if (valor < max) {
-        input.value = valor + 1;
-        contenedor.querySelector(".total").innerHTML = `Total a pagar: $${(valor + 1) * 9899}`;
-      }
-    });
-
-    btnRestar.addEventListener("click", () => {
-      let valor = parseInt(input.value);
-      const min = parseInt(input.min);
-
-      if (valor >= min) {
-        input.value = valor - 1;
-        contenedor.querySelector(".total").innerHTML = `Total a pagar: $${(valor - 1) * 9899}`;
-      }
-    });
-  });
-});                                                
-
