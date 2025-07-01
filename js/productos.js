@@ -8,25 +8,26 @@ const categorias = [
       {
         img: "/img/productos/hamburguesa.png", 
         nombre: "Triple Hamburguesa con Queso", 
-        precio: '$8900', 
-        descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar"
+        precio: 8900,
+        descripcion: "Tres medallones de carne 100% vacuna, queso derretido, mostaza, kétchup y cebolla triturada, es algo que nunca puede fallar",
+        promocion: true
       },
       {
         img: "/img/productos/bigMac.png", 
         nombre: "Big Mac", 
-        precio: '$6600', 
+        precio: 6600, 
         descripcion: "Dos hamburguesas de carne 100% vacuna con salsa especial, queso derretido, cebolla, lechuga fresca y pepino crocante que crean un sabor único, haciéndola la hamburguesa más famosa del mundo."
       },
       {
         img: "/img/productos/dobleCuartoQueso.png", 
         nombre: "Doble Cuarto de Libra con Queso", 
-        precio: '$9800', 
+        precio: 9800, 
         descripcion: "Imaginá la sensación del clásico Cuarto de Libra. Imaginalo con un medallón de deliciosa carne 100% vacuna, queso cheddar, cebolla, kétchup y mostaza ¿Listo? Ahora duplicá esa sensación. Ya tenés el Doble Cuarto en la cabeza."
       },
       {
         img: "/img/productos/mcnifica.png", 
         nombre: "McNífica", 
-        precio: '$9200', 
+        precio: 9200, 
         descripcion: "En un mundo donde todos buscan lo nuevo todo el tiempo, la McNífica viene a rectificar lo bueno de ser clásico. Carne, queso cheddar, tomate, lechuga y cebolla, acompañados de kétchup, mostaza y mayonesa."
       }
      
@@ -38,25 +39,26 @@ const categorias = [
       {
         img: "/img/productos/papas.png", 
         nombre: "Papas fritas", 
-        precio: '$4500', 
+        precio: 4500, 
         descripcion: "Calientes, crujientes y deliciosas, tus aliadas perfectas para cualquier comida. Disfrutá de nuestras papas mundialmente famosas, desde la primera hasta la última."
       },
       {
         img: "/img/productos/papasPequenias.png", 
         nombre: "Papas pequeñas", 
-        precio: '$2000', 
+        precio: 2000, 
         descripcion: "Nuestras clásicas papas fritas doradas y crocantes con la sal justa y en un porción adecuada para los niños."
       },
       {
         img: "/img/productos/papasConCheddar.png", 
         nombre: "papas Con Chedar y bacon", 
-        precio: '$4500', 
-        descripcion: "Calientes, crujientes y deliciosas, una nueva variedad llega para quedarse: Papas Fritas con Cheddar fundido y trocitos de bacon."
+        precio: 4500, 
+        descripcion: "Calientes, crujientes y deliciosas, una nueva variedad llega para quedarse: Papas Fritas con Cheddar fundido y trocitos de bacon.",
+        promocion: true,
       },
       {
         img: "/img/productos/papasConTasty.png", 
         nombre: "papas con tasty", 
-        precio: '3700', 
+        precio: 3700, 
         descripcion: "Calientes, crujientes y deliciosas, una nueva variedad llega para quedarse: Papas Fritas con nuestra exclusiva salsa Tasty."
       }
     ]
@@ -67,25 +69,25 @@ const categorias = [
       {
         img: "/img/productos/cocaColaChica.png", 
         nombre: "Coca Cola Mediana", 
-        precio: '$3200', 
+        precio: 3200, 
         descripcion: "Burbujas contra el calor, contra la sed, contra el aburrimiento. Si tus comidas llevan gaseosa, están listas para enfrentar lo que sea, elegila en tamaño regular, mediano o grande."
       },
       { 
         img: "/img/productos/sprite.png", 
         nombre: "Sprite Zero Mediana (500ml)", 
-        precio: '$3200', 
+        precio: 3200, 
         descripcion: "Burbujas contra el calor, contra la sed, contra el aburrimiento. Si tus comidas llevan gaseosa, están listas para enfrentar lo que sea, elegila en tamaño regular, mediano o grande."
       },
       {
         img: "/img/productos/fanta.png", 
         nombre: "Fanta Zero Mediana (500ml)", 
-        precio: '$3200', 
+        precio: 3200, 
         descripcion: "Burbujas contra el calor, contra la sed, contra el aburrimiento. Si tus comidas llevan gaseosa, están listas para enfrentar lo que sea, elegila en tamaño regular, mediano o grande."
       },
       {
         img: "/img/productos/agua.png", 
         nombre: "Agua", 
-        precio: '$3500', 
+        precio: 3500, 
         descripcion: "Botella de 500ml de agua mineral"
       }
     ]
@@ -96,28 +98,26 @@ const categorias = [
       {
         img: "/img/productos/cono-vainilla.png", 
         nombre: "Cono de Vainilla", 
-        precio: '$1300', 
+        precio: 1300, 
         descripcion: "Un clásico cono que nunca pasa de moda. La opción que todos aman por su sabor, su dulce cucurucho y su estilo tan cool.", 
         promocion: true
       },
       {
         img: "/img/productos/cono-kitkat.png", 
         nombre: "Cono KitKat", 
-        precio: '$1900', 
+        precio: 1900, 
         descripcion: "Cremoso helado de vainilla, en un delicioso cucurucho, acompañado de la crujiente oblea de chocolate, la favorita de todos: Kit Kat. ¡Imposible resistirse!", 
-        promocion: true
       },
       {
         img: "/img/productos/cono-combinado.png", 
         nombre: "Cono Combinado", 
-        precio: '$ 1300', 
+        precio: 1300, 
         descripcion: "El helado para los que lo quieren todo. Para los que no se conforman con un sabor. Un helado que combina dulce de leche, vainilla y un delicioso cucurucho.", 
-        promocion: true
       },
       {
         img: "/img/productos/cono-ddl.png", 
         nombre: "Cono de Dulce de Leche", 
-        precio: '$ 1300', 
+        precio: 1300, 
         descripcion: "Si amás el dulce de leche, si amás el helado, si amás el cucurucho, si amás un postre que te refresque; este es tu postre.", 
         promocion: true
       },

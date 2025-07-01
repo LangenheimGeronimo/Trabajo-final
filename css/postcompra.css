@@ -73,8 +73,7 @@ form button {
     }
     
     &:active {
-        background-color: #ffe46d;
-        color: rgb(100, 100, 100);
+        opacity: .8;
     }
 
 }

@@ -4,7 +4,7 @@ const productosResenias = [
     titulo: 'Big Mac',
     resenias: [
       {
-        nombre: "Julian Lpoez", 
+        nombre: "Julian Lopez", 
         puntuacion: 1,
         comentario: 'Muy fea. El pan estaba seco y la carne sin gusto. No la volvería a pedir.'
       },

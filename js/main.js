@@ -34,7 +34,7 @@ function crearCarta(producto){
     <img src="${producto.img}" alt="imagen de ${producto.nombre}">
     <div class="product-details">
         <h2>${producto.nombre}</h2>
-        <h3>${producto.precio}</h3>
+        <h3>$${producto.precio}</h3>
         <p>${producto.descripcion}</p>
     </div>
   `;
