@@ -1,15 +1,14 @@
-/*CONTENEDORES:*/
 .contenedorProductos {
    display: flex;
    flex-direction: column;
-   justify-content: center;
+   align-items: center;
     padding: 1rem;
     align-items: center;
     border: none;
 }
 
 .promocion {
-    /*FUTURO ESTILO s*/
+    /*FUTURO ESTILO */
 }
 
 .producto {
@@ -28,13 +27,11 @@
     }
 }
 
-/*CARTAS:*/
 .product-details {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
-
 
 .input-cantidad {
   display: flex;
@@ -83,7 +80,6 @@
     }
 }
 
-/*DETALLES:*/
 hr {
     width: 100%;
 }
@@ -123,6 +119,7 @@ hr {
         gap: 30px;
         padding: 20px;
         margin-bottom: 3rem;
+        justify-content: center;
     }
 
     .product-details {
